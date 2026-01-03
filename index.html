@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Koushik Biswas | Bengali Transcription • ELAN • SRT • Python Scraping</title>
+  <meta name="description" content="Bengali transcription, ELAN segmentation/labeling, SRT subtitles, conversation recordings for AI data, and Python web scraping + automation with clean Excel/CSV/JSON outputs." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Koushik Biswas | Freelance Bengali Transcription & Python Automation" />
+  <meta property="og:description" content="High-accuracy Bengali transcription, ELAN labeling, SRT subtitles, and reliable web scraping/automation deliverables." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">KB</div>
+        <div>
+          <div class="brand-name">Koushik Biswas</div>
+          <div class="brand-tag">Bengali Transcription • ELAN • SRT • Python Scraping</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#contact" class="btn btn-sm">Get a Quote</a>
+        <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle theme" title="Toggle theme">
+          ☾
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="pill">Immediately available • Remote • Open to paid test tasks</p>
+          <h1>Bengali transcription, subtitles, ELAN labeling, and reliable Python web scraping.</h1>
+          <p class="lead">
+            I deliver high-accuracy Bengali transcription and AI training data support—plus automation scripts and clean datasets
+            in Excel/CSV/JSON.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="#contact">Get a Quote</a>
+            <a class="btn btn-ghost" href="#services">View Services</a>
+          </div>
+
+          <div class="meta-grid">
+            <div class="meta-card">
+              <div class="meta-title">Languages</div>
+              <div class="meta-text">Bengali (Native) • Hindi (Fluent) • English (Working)</div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-title">Tools</div>
+              <div class="meta-text">ELAN • Python • Selenium • BeautifulSoup • Pandas • Excel/Sheets</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Intake / Estimate -->
+        <aside class="card">
+          <h2 class="card-title">Quick Estimate</h2>
+          <p class="card-sub">Select your service and details. You’ll get an estimated range and a ready-to-send request.</p>
+
+          <form id="estimateForm" class="form">
+            <label>
+              Service
+              <select id="service" required>
+                <option value="transcription">Bengali Transcription + QA</option>
+                <option value="srt">SRT Subtitles (Create + Sync)</option>
+                <option value="elan">ELAN Segmentation & Labeling</option>
+                <option value="recording">Conversation Recordings (2-person)</option>
+                <option value="scraping">Web Scraping (Static/Dynamic)</option>
+                <option value="automation">Python Automation + Data Cleaning</option>
+              </select>
+            </label>
+
+            <div class="two-col">
+              <label>
+                Quantity
+                <input id="quantity" type="number" min="1" value="30" required />
+              </label>
+              <label>
+                Unit
+                <select id="unit">
+                  <option value="minutes">Minutes</option>
+                  <option value="hours">Hours</option>
+                  <option value="pages">Pages</option>
+                  <option value="tasks">Tasks</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              Turnaround
+              <select id="turnaround">
+                <option value="standard">Standard</option>
+                <option value="fast">Fast</option>
+                <option value="urgent">Urgent</option>
+              </select>
+            </label>
+
+            <label>
+              Output format
+              <select id="output">
+                <option value="doc">Google Doc / Word</option>
+                <option value="srt">SRT</option>
+                <option value="elan">ELAN (EAF + exports)</option>
+                <option value="excel">Excel / CSV / JSON</option>
+                <option value="script">Python script + outputs</option>
+              </select>
+            </label>
+
+            <div class="estimate">
+              <div>
+                <div class="estimate-label">Estimated range</div>
+                <div id="estimateValue" class="estimate-value">—</div>
+                <div class="estimate-note" id="estimateNote">This is a rough estimate. Final quote depends on audio quality, guidelines, and complexity.</div>
+              </div>
+            </div>
+
+            <button class="btn btn-full" type="submit">Send Request</button>
+            <p class="tiny muted">This opens your email app with all details pre-filled (works on GitHub Pages).</p>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Services</h2>
+          <p class="muted">Clear deliverables, consistent formatting, and quality checks.</p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card">
+            <h3>📝 Bengali Transcription + QA</h3>
+            <ul class="list">
+              <li>High-accuracy transcription (as per guidelines)</li>
+              <li>Proofreading, QA, and consistency checks</li>
+              <li>Timestamping (optional)</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>🎬 SRT Subtitles (Create + Sync)</h3>
+            <ul class="list">
+              <li>Accurate timing and readable line breaks</li>
+              <li>Platform-friendly formatting</li>
+              <li>Fast turnaround available</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>🏷️ ELAN Segmentation & Labeling</h3>
+            <ul class="list">
+              <li>Precise segmentation and timestamps</li>
+              <li>Labeling aligned to dataset rules</li>
+              <li>Clean ELAN outputs (EAF + exports)</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>🎙️ Conversation Recordings (AI Data)</h3>
+            <ul class="list">
+              <li>Two-person scripted or natural conversations</li>
+              <li>Topic-based delivery with clear audio standards</li>
+              <li>Guideline-compliant file naming & structure</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>🕸️ Web Scraping (Static/Dynamic)</h3>
+            <ul class="list">
+              <li>Selenium + BeautifulSoup pipelines</li>
+              <li>Error handling, retries, logs</li>
+              <li>Exports to Excel/CSV/JSON</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>⚙️ Python Automation + Data Cleaning</h3>
+            <ul class="list">
+              <li>Automate repetitive workflows & file handling</li>
+              <li>Data cleaning with Pandas</li>
+              <li>Structured outputs + reproducible scripts</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK / PROOF -->
+    <section id="work" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Work & Experience</h2>
+          <p class="muted">Client-ready delivery for AI training data and structured datasets.</p>
+        </div>
+
+        <div class="grid two">
+          <div class="card">
+            <h3>Bengali Transcription & Recording Specialist</h3>
+            <p class="muted">Josh Talks | Magic Data</p>
+            <ul class="list">
+              <li>High-accuracy Bengali transcription for audio/video</li>
+              <li>Two-person scripted & natural conversation recordings</li>
+              <li>ELAN labeling with precise timestamping</li>
+              <li>SRT creation and sync</li>
+              <li>Strict QA aligned to platform guidelines</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Python Automation & Web Scraping Freelancer</h3>
+            <p class="muted">Client-based projects</p>
+            <ul class="list">
+              <li>Static + dynamic extraction using Selenium/BeautifulSoup</li>
+              <li>Automation scripts for workflows and file handling</li>
+              <li>Clean datasets in Excel/CSV/JSON using Pandas</li>
+              <li>Reliability with retries, logs, and error handling</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="note">
+          <strong>Portfolio tip:</strong> Add 2–3 safe “sample” projects here (no client names/data). Example: “ELAN-labeled 60-min conversation dataset (sample structure)”.
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Process</h2>
+          <p class="muted">Simple workflow so clients know what to expect.</p>
+        </div>
+
+        <div class="grid steps">
+          <div class="step card">
+            <div class="step-num">1</div>
+            <h3>Requirements</h3>
+            <p>Share files, output format, style rules, and deadline.</p>
+          </div>
+          <div class="step card">
+            <div class="step-num">2</div>
+            <h3>Sample + Quote</h3>
+            <p>If needed, I do a small sample and confirm pricing.</p>
+          </div>
+          <div class="step card">
+            <div class="step-num">3</div>
+            <h3>Production + QA</h3>
+            <p>Delivery-ready work with consistency and quality checks.</p>
+          </div>
+          <div class="step card">
+            <div class="step-num">4</div>
+            <h3>Delivery</h3>
+            <p>Final files + agreed revisions, on time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>FAQ</h2>
+          <p class="muted">Common questions from clients.</p>
+        </div>
+
+        <div class="grid two">
+          <details class="card" open>
+            <summary>What do you need to start?</summary>
+            <p>Audio/video files (or links), required format (Doc/SRT/ELAN/Excel), guidelines (if any), and deadline.</p>
+          </details>
+
+          <details class="card">
+            <summary>Can you do a paid test task?</summary>
+            <p>Yes. I’m open to paid tests and small trials before larger work.</p>
+          </details>
+
+          <details class="card">
+            <summary>What outputs do you deliver?</summary>
+            <p>Synced SRT, ELAN labeled segments with timestamps, clean datasets (Excel/CSV/JSON), and reliable Python scripts.</p>
+          </details>
+
+          <details class="card">
+            <summary>Do you handle noisy audio?</summary>
+            <p>Yes, but pricing/time may change depending on clarity, speakers, and complexity.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Send details and I’ll reply with availability and a quote.</p>
+        </div>
+
+        <div class="grid two">
+          <div class="card">
+            <h3>Direct</h3>
+            <p><strong>Email:</strong> <a href="mailto:koushik271999@gmail.com">koushik271999@gmail.com</a></p>
+            <p><strong>WhatsApp:</strong> <span class="muted">7478151545</span></p>
+            <p class="tiny muted">Tip: Consider adding country code and using a WhatsApp click link later (wa.me).</p>
+          </div>
+
+          <div class="card">
+            <h3>Project Intake</h3>
+            <form id="intakeForm" class="form">
+              <label>
+                Your name
+                <input id="clientName" type="text" required />
+              </label>
+              <label>
+                Your email
+                <input id="clientEmail" type="email" required />
+              </label>
+              <label>
+                Project details
+                <textarea id="clientMsg" rows="5" placeholder="Service needed, length, deadline, output format, and any guidelines..." required></textarea>
+              </label>
+              <button class="btn btn-full" type="submit">Email Me the Details</button>
+              <p class="tiny muted">This opens your email app with a formatted request. No server needed.</p>
+            </form>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="container footer-inner">
+            <span class="muted">© <span id="year"></span> Koushik Biswas</span>
+            <a class="muted" href="#main">Back to top</a>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Koushik Biswas",
+    "email": "koushik271999@gmail.com",
+    "address": { "@type": "PostalAddress", "addressCountry": "IN" },
+    "knowsLanguage": ["Bengali", "Hindi", "English"],
+    "knowsAbout": ["Bengali transcription", "ELAN segmentation", "SRT subtitles", "Web scraping", "Python automation", "Data cleaning"]
+  }
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
