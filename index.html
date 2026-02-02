@@ -1,216 +1,130 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>Biswas Tech | Language Data, Automation & AI Support</title>
-
-  <meta name="description"
-    content="Biswas Tech provides professional Bengali transcription, ELAN labeling, subtitles, AI conversation data, and Python automation services." />
-
-  <!-- SEO / Social -->
-  <meta property="og:title" content="Biswas Tech | Professional Language Data Services" />
-  <meta property="og:description" content="High-accuracy Bengali transcription, ELAN, SRT subtitles, and automation for AI and businesses." />
-  <meta property="og:type" content="website" />
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <meta name="theme-color" content="#0b0f19" />
-
-  <link rel="stylesheet" href="styles.css" />
+  <title>Biswas Tech — Bengali Language Data & Automation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional Bengali transcription, ELAN labeling, subtitles, AI conversation datasets & Python automation services." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header class="header">
-  <div class="container header-inner">
-    <div class="brand">
-      <div class="logo">BT</div>
-      <div>
-        <div class="brand-name">Biswas Tech</div>
-        <div class="brand-tag">Language Data • Automation • AI Support</div>
-      </div>
-    </div>
+<!-- Loader -->
+<div id="loader">
+  <span>Biswas Tech</span>
+</div>
 
-    <nav class="nav">
-      <a href="#home">Home</a>
-      <a href="#services">Services</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact" class="btn">Contact</a>
-    </nav>
-  </div>
+<!-- Navbar -->
+<header class="nav">
+  <div class="logo">Biswas<span>Tech</span></div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#why">Why Us</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact" class="cta">Get Quote</a>
+  </nav>
 </header>
 
-<main id="home">
-
-<!-- HERO -->
+<!-- Hero -->
 <section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <p class="pill">Trusted by AI startups & data teams</p>
-      <h1>
-        Professional Bengali language data<br />
-        & automation services
-      </h1>
-      <p class="lead">
-        Biswas Tech helps AI companies, research teams, and digital businesses with
-        high-accuracy Bengali transcription, ELAN labeling, subtitles, conversation datasets,
-        and Python-based automation.
-      </p>
-
-      <div class="cta">
-        <a href="#contact" class="btn">Get a Quote</a>
-        <a href="#services" class="btn ghost">Explore Services</a>
-      </div>
-
-      <div class="stats">
-        <div><strong>1M+</strong><span>Words processed</span></div>
-        <div><strong>99%+</strong><span>Accuracy rate</span></div>
-        <div><strong>5+ yrs</strong><span>Experience</span></div>
-      </div>
-    </div>
-
-    <div class="card highlight">
-      <h3>Why Biswas Tech?</h3>
-      <ul>
-        <li>✔ Native Bengali expertise</li>
-        <li>✔ AI-training ready datasets</li>
-        <li>✔ Clean, structured outputs</li>
-        <li>✔ Strict QA & confidentiality</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<section id="services" class="section">
-  <div class="container">
-    <h2>Services</h2>
-    <p class="section-desc">
-      End-to-end language data and automation services designed for real production use.
+  <div class="hero-content reveal">
+    <h1>Trusted by AI startups & data teams</h1>
+    <p>
+      Professional Bengali language data & automation services.
+      We help AI companies, researchers and digital businesses with
+      high-accuracy transcription, ELAN labeling, subtitles, datasets & Python automation.
     </p>
 
-    <div class="grid services">
-      <article class="card">
-        <h3>Bengali Transcription & QA</h3>
-        <p>
-          High-accuracy transcription for interviews, podcasts, lectures, and conversational audio.
-          Includes proofreading, speaker labeling, and guideline compliance.
-        </p>
-      </article>
-
-      <article class="card">
-        <h3>SRT Subtitles</h3>
-        <p>
-          Professionally synced subtitles with clean line breaks, reading speed control,
-          and platform-ready formatting.
-        </p>
-      </article>
-
-      <article class="card">
-        <h3>ELAN Segmentation & Labeling</h3>
-        <p>
-          Precise segmentation and labeling in ELAN for AI datasets, including EAF files
-          and export formats.
-        </p>
-      </article>
-
-      <article class="card">
-        <h3>Conversation Recordings (AI)</h3>
-        <p>
-          Two-person scripted or natural Bengali conversations for AI training,
-          delivered with clean audio structure.
-        </p>
-      </article>
-
-      <article class="card">
-        <h3>Web Scraping</h3>
-        <p>
-          Static and dynamic scraping using Selenium and BeautifulSoup with
-          structured Excel/CSV/JSON outputs.
-        </p>
-      </article>
-
-      <article class="card">
-        <h3>Python Automation</h3>
-        <p>
-          Workflow automation, data cleaning, report generation, and
-          repeatable scripts tailored to your business.
-        </p>
-      </article>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Get a Quote</a>
+      <a href="#services" class="btn-secondary">Explore Services</a>
     </div>
+
+    <div class="stats">
+      <div><strong data-counter="1000000">0</strong><span>Words Processed</span></div>
+      <div><strong data-counter="99">0</strong><span>% Accuracy</span></div>
+      <div><strong data-counter="5">0</strong><span>Years Experience</span></div>
+    </div>
+  </div>
+
+  <div class="hero-bg"></div>
+</section>
+
+<!-- Why Us -->
+<section id="why" class="section reveal">
+  <h2>Why Biswas Tech?</h2>
+  <ul class="features">
+    <li>✔ Native Bengali linguistic expertise</li>
+    <li>✔ AI-training ready datasets</li>
+    <li>✔ Clean, structured & scalable outputs</li>
+    <li>✔ Strict QA, NDA & confidentiality</li>
+  </ul>
+</section>
+
+<!-- Services -->
+<section id="services" class="section dark">
+  <h2 class="reveal">Services</h2>
+
+  <div class="services-grid">
+    <div class="service-card reveal">Bengali Transcription & QA</div>
+    <div class="service-card reveal">SRT Subtitles</div>
+    <div class="service-card reveal">ELAN Segmentation & Labeling</div>
+    <div class="service-card reveal">Conversation Recordings (AI)</div>
+    <div class="service-card reveal">Web Scraping</div>
+    <div class="service-card reveal">Python Automation</div>
   </div>
 </section>
 
-<!-- REVIEWS -->
-<section id="reviews" class="section alt">
-  <div class="container">
-    <h2>Client Reviews</h2>
-    <p class="section-desc">What clients say about working with Biswas Tech</p>
+<!-- Reviews -->
+<section id="reviews" class="section">
+  <h2 class="reveal">Client Reviews</h2>
 
-    <div class="grid reviews" id="reviewContainer"></div>
+  <div class="reviews-track" id="reviewsTrack">
+    <!-- Fake JS-injected reviews -->
   </div>
 </section>
 
 <!-- FAQ -->
-<section id="faq" class="section">
-  <div class="container">
-    <h2>Frequently Asked Questions</h2>
+<section id="faq" class="section dark">
+  <h2 class="reveal">Frequently Asked Questions</h2>
 
-    <div class="faq">
-      <details>
-        <summary>How accurate is your transcription?</summary>
-        <p>We consistently deliver 99%+ accuracy depending on audio quality and guidelines.</p>
-      </details>
+  <div class="faq-item">
+    <h4>How accurate is your transcription?</h4>
+    <p>We consistently deliver 99%+ accuracy depending on audio quality.</p>
+  </div>
 
-      <details>
-        <summary>Do you sign NDAs?</summary>
-        <p>Yes. All projects are handled with strict confidentiality.</p>
-      </details>
+  <div class="faq-item">
+    <h4>Do you sign NDAs?</h4>
+    <p>Yes. Every project is handled with strict confidentiality.</p>
+  </div>
 
-      <details>
-        <summary>What formats do you deliver?</summary>
-        <p>DOC, SRT, ELAN (EAF), Excel, CSV, JSON, and Python scripts.</p>
-      </details>
+  <div class="faq-item">
+    <h4>What formats do you deliver?</h4>
+    <p>DOC, SRT, ELAN (EAF), Excel, CSV, JSON, and Python scripts.</p>
+  </div>
 
-      <details>
-        <summary>Can you handle large-scale AI datasets?</summary>
-        <p>Yes. We specialize in scalable, production-ready datasets.</p>
-      </details>
-    </div>
+  <div class="faq-item">
+    <h4>Can you handle large AI datasets?</h4>
+    <p>Yes. We specialize in scalable, production-ready datasets.</p>
   </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="section alt">
-  <div class="container">
-    <h2>Contact Biswas Tech</h2>
+<!-- Contact -->
+<section id="contact" class="section reveal">
+  <h2>Contact Biswas Tech</h2>
 
-    <div class="grid two">
-      <div class="card">
-        <p><strong>Email:</strong> koushik271999@gmail.com</p>
-        <p><strong>WhatsApp:</strong> +91 7478151545</p>
-        <p class="muted">Typically replies within 24 hours</p>
-      </div>
-
-      <div class="card">
-        <form id="contactForm">
-          <input placeholder="Your Name" required />
-          <input placeholder="Your Email" type="email" required />
-          <textarea placeholder="Project details" rows="4" required></textarea>
-          <button class="btn full">Send Inquiry</button>
-        </form>
-      </div>
-    </div>
-  </div>
+  <p>Email: <strong>koushik271999@gmail.com</strong></p>
+  <p>WhatsApp: <strong>+91 7478151545</strong></p>
+  <p class="muted">Typically replies within 24 hours</p>
 </section>
 
-<footer class="footer">
-  © <span id="year"></span> Biswas Tech. All rights reserved.
+<footer>
+  © 2026 Biswas Tech. All rights reserved.
 </footer>
 
-<script src="script.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
